@@ -85,7 +85,10 @@
 				}
 
 				h1 {
-					font-size: 220%
+					font-size: 220%;
+					text-shadow: 2px 2px black;
+
+
 
 				}
 				
