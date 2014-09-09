@@ -17,7 +17,8 @@
            .profil-bild:hover{
            	transform:rotate(0deg) ;
            	-webkit-filter:blur(0px) contrast(1);	
-           	-webkit-transition : -webkit-filter 1000ms linear
+           	-webkit-transition : -webkit-filter 1000ms linear;
+           	-webkit-formation: 2s ease-in-out;
            	
            	
            }
