@@ -1,0 +1,119 @@
+
+         .main{
+         	position: relative;
+         	left: 300px;
+         	top: -119px;
+         }          
+
+
+           div.profil-bild{
+           	width: 250px;
+           	-webkit-filter: blur(10px) contrast(5.1);
+           }
+           .profil-bild:hover{
+           
+           	-webkit-filter:blur(0px) contrast(1);	
+           	-webkit-transition : -webkit-filter 500ms linear
+           }
+           
+
+           ul.navi{
+           		list-style-type: none;
+           		min-width: 700px;
+				}
+			
+			.navi li {
+				float: left;
+				margin: 10px;
+
+				}
+			
+			.navi li a{
+				text-decoration: none;
+				color: yellow;
+			}
+
+           .navi li:hover {
+           	background-color: #B13FB4;
+           	font-color:#EAAD00;
+
+           }
+           .board{
+           	background-image: url("grey.png");
+           	height: 35px;
+           	border-radius: 50px;
+           	min-width:1000px;
+           	 
+
+           }
+
+			body 
+				{       
+    			background-image: url("brown.png");
+    			background-repeat:;
+    			background-position: right top;
+    			background-color: #818081;
+    			
+
+
+				}
+
+			table 
+				{
+    			border-collapse: collapse;
+				}
+
+			table, td, th 
+				{	
+				height: 2em;
+    			border: 3px solid black;
+    			text-align: center;
+    			text-shadow: 1px 1px 0 black;
+    			color:white;
+				}
+				h1,h2,h3,h4,h5,h6{
+					font-family: times,serif;
+					font-size: 150%;
+					color: red;
+					text-shadow: 2px 2px white;
+				}
+
+				h1 {
+					font-size: 220%
+
+				}
+				 p.godis:hover{
+
+				 	
+				 	color:#79E75B;
+				 	background-image: url("http://www.nattvandrarnaityreso.com/godissvampen.gif")
+				 	
+				 }
+				 p{
+				 	color:white;
+				 	
+				 	 text-shadow: 
+				 	 1px 1px black;
+				 }
+
+				 ul{
+				 	color: white;
+				 	text-shadow: 1px 1px black;
+
+				 }
+				 .profil-bild{
+				 	position:relative;
+				 	
+				 	
+				 }
+				 div{ width:50%;
+				 	  height:135%; 
+
+				 }
+
+				 .clear{
+				 	clear:both;
+				 }
+
+
+				
