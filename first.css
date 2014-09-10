@@ -1,15 +1,25 @@
 
-         .main{
-         	position: relative;
-         	left: 300px;
-         	top: -119px;
-         }          
+
+			.main{
+				position: absolute;
+				left: 235px;
+				top:10px;
+				width: 500px;
+				height: 340px;
+				margin-top: 50px;
+				overflow: scroll;
+				
+			}
+
+			#id {
+				width: 100%
+			}
+
 
 
            div.profil-bild{
            	width: 25px;
            	-webkit-filter: blur(10px) contrast(5.1);
-           	transform:rotate(20deg);
            	transition: all 2s ease-in-out;
            	
 
@@ -21,6 +31,29 @@
            	
            	
            }
+
+           .citat1 p{
+           	position: absolute;
+           	right: 0;
+           	top:70px;
+           	font-family: 'Pacifico', cursive;
+           	font-size: 30px;
+           	color:black;
+           	text-shadow:1px 1px grey;
+           	width: 300px;
+           }
+           .citat2 p{
+           	position: absolute;
+           	left: 25px;
+           	bottom: 185px;
+           	width: 1000px;
+           	height: 20px;
+           	font-family: 'Pacifico', cursive;
+           	font-size:35px;
+           	color: black;
+           	text-shadow:1px 1px grey;
+           }
+           
            
 
            ul.navi{
@@ -39,30 +72,25 @@
 				color: yellow;
 			}
 
-           .navi li:hover {
+           .navi li:hover 
+           {
            	background-color: #B13FB4;
            	font-color:#EAAD00;
+			}
 
-           }
-           .board{
-           	background-image: url("grey.png");
-           	height: 35px;
-           	border-radius: 50px;
-           	min-width:1000px;
-           	 
-
-           }
+           .board
+           {
+           		background-image: url("grey.png");
+           		height: 35px;
+           		border-radius: 50px;
+           		min-width:1000px;
+           		}
 
 			body 
-				{       
+			{       
     			background-image: url("brown.png");
     			background-repeat:;
-    			background-position: right top;
-    			background-color: #818081;
-    			
-
-
-				}
+    			}
 
 			table 
 				{
@@ -81,12 +109,9 @@
 					font-family: times,serif;
 					font-size: 150%;
 					color: red;
-					text-shadow: 2px 2px black;
-				}
-
-				h1 {
-					font-size: 220%;
-					text-shadow:2px 2px black;
+					text-shadow: 2px 2px white;
+				}ª›				h1 {
+					font-size: 220%
 
 				}
 				
@@ -107,10 +132,7 @@
 				 	
 				 	
 				 }
-				 div{ width:50%;
-				 	  height:135%; 
-
-				 }
+				
 
 				 .clear{
 				 	clear:both;
